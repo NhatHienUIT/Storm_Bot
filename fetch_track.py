@@ -10,8 +10,8 @@ print("Checking NOAA server for Western Pacific data...")
 response = requests.get(directory_url)
 
 # Find ALL official storms and ALL invests
-official_storms = re.findall(r'href="(awp[0-4]\d\d{4}\.dat\.gz)"', response.text)
-invests = re.findall(r'href="(awp9\d\d{4}\.dat\.gz)"', response.text)
+official_storms = re.findall(r'href="(a?wp[0-4]\d\d{4}\.dat(?:\.gz)?)"', response.text)
+invests = re.findall(r'href="(a?wp9\d\d{4}\.dat(?:\.gz)?)"', response.text)
 
 # Combine and remove duplicates
 all_active_files = list(set(official_storms + invests))
