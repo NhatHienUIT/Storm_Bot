@@ -99,11 +99,20 @@ if all_active_files:
                         "track": track_points
                     })
                     
+                    # Dynamic Movement Line
+                    if pd.notna(c_dir) and pd.notna(c_spd):
+                        movement_line = f"\n> **Movement:** {int(c_dir)}° at {int(c_spd)} kt"
+                    elif pd.notna(c_spd) and c_spd == 0:
+                        movement_line = "\n> **Movement:** Stationary"
+                    else:
+                        movement_line = ""
+
+                    # Dynamic Pressure Line
+                    pressure_line = f"\n> **Pressure:** {int(c_mslp)} mb" if pd.notna(c_mslp) and c_mslp > 0 else ""
+
                     msg = (f"🔸 **{display_name}** (Source: ATCF Models)\n"
-                           f"> **Position:** {lat_str}, {lon_str}\n"
-                           f"> **Movement:** {dir_str} at {spd_str}\n"
-                           f"> **Intensity:** {vmax_str} (1-min)\n"
-                           f"> **Pressure:** {mslp_str}\n"
+                           f"> **Position:** {lat_str}, {lon_str}{movement_line}\n"
+                           f"> **Intensity:** {vmax_str} (1-min){pressure_line}\n"
                            f"> **Forecast Peak:** {max_vmax_str}\n"
                            f"> **Track Points:** {len(track_points)}")
                     wp_discord_messages.append(msg)
@@ -192,11 +201,22 @@ if not wp_storms_data:
                     "track": track_points
                 })
                 
+                # Catch abbreviations (DEG/KTS) or Stationary status
+                mov_match = re.search(r"(\d{3})\s+DEG(?:REES)?\s+AT\s+(\d+)\s+(?:KNOTS|KTS)", text, re.IGNORECASE)
+                is_stationary = re.search(r"STATIONARY", text, re.IGNORECASE)
+
+                if mov_match:
+                    movement_line = f"\n> **Movement:** {int(mov_match.group(1))}° at {int(mov_match.group(2))} kt"
+                elif is_stationary:
+                    movement_line = f"\n> **Movement:** Stationary"
+                else:
+                    movement_line = ""
+
+                pressure_line = f"\n> **Pressure:** {c_mslp} mb" if c_mslp else ""
+
                 msg = (f"🔸 **{storm_name}** (Source: Aviation Text)\n"
-                       f"> **Position:** {lat_str}, {lon_str}\n"
-                       f"> **Movement:** {dir_str} at {spd_str}\n"
-                       f"> **Intensity:** {vmax_str} (1-min)\n"
-                       f"> **Pressure:** {mslp_str}\n"
+                       f"> **Position:** {lat_str}, {lon_str}{movement_line}\n"
+                       f"> **Intensity:** {vmax_str} (1-min){pressure_line}\n"
                        f"> **Forecast Peak:** {max_vmax_str}\n"
                        f"> **Track Points:** {len(track_points)}")
                 wp_discord_messages.append(msg)
