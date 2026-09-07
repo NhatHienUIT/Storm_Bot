@@ -80,13 +80,13 @@ if not atcf_success:
                 return lat, lon
 
             # 1. Get Current Position
-            pos_match = re.search(r"WARNING POSITION:.*?NEAR\s+(\d+\.\d+[NS])\s+(\d+\.\d+[EW])", text)
+            pos_match = re.search(r"WARNING POSITION:.*?NEAR\s+(\d+\.\d+[NS])\s+(\d+\.\d+[EW])", text, re.DOTALL)
             if pos_match:
                 lat, lon = parse_text_coord(pos_match.group(1), pos_match.group(2))
                 track_points.append({"FORECAST_HOUR": 0, "lat": lat, "lon": lon})
                 
             # 2. Get Forecast Positions
-            forecasts = re.finditer(r"(\d{2})\s+HRS, VALID AT:.*?---\s+(\d+\.\d+[NS])\s+(\d+\.\d+[EW])", text)
+            forecasts = re.finditer(r"(\d{2})\s+HRS, VALID AT:.*?---\s+(\d+\.\d+[NS])\s+(\d+\.\d+[EW])", text, re.DOTALL)
             for f in forecasts:
                 f_hour = int(f.group(1))
                 lat, lon = parse_text_coord(f.group(2), f.group(3))
