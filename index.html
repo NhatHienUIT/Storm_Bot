@@ -30,25 +30,23 @@
             attribution: '© OpenStreetMap contributors | Data: NOAA/JTWC'
         }).addTo(map);
 
-        fetch('storm_track.json')
+        fetch('storm_track.json?t=' + Date.now(), { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
                 const statusDiv = document.getElementById('status');
                 
                 if (data.status === "active" && data.storms && data.storms.length > 0) {
                     let statusHtml = `<strong>${data.storms.length} Active System(s)</strong><hr style="margin: 8px 0;">`;
-                    let allCoordinates = []; // Used to zoom the camera to fit everything
+                    let allCoordinates = [];
                     
-                    // Loop through every storm in the JSON
                     data.storms.forEach(storm => {
                         statusHtml += `<div class="storm-entry"><b>${storm.name}</b><br>Run: ${storm.run_time}</div>`;
                         
                         const points = storm.track.map(pt => [pt.lat, pt.lon]);
                         
                         if (points.length > 0) {
-                            allCoordinates.push(...points); // Save coordinates for camera zoom
+                            allCoordinates.push(...points);
                             
-                            // Color code: Orange for Invests, Red for official storms
                             const pathColor = storm.is_invest ? '#f77f00' : '#d62828';
                             
                             L.marker(points[0]).addTo(map)
@@ -63,7 +61,6 @@
                     
                     statusDiv.innerHTML = statusHtml;
                     
-                    // Adjust camera to fit all storms on the screen
                     if (allCoordinates.length > 0) {
                         const bounds = L.latLngBounds(allCoordinates);
                         map.fitBounds(bounds, { padding: [50, 50] });
