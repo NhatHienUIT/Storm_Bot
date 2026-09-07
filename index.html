@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Pacific & Vietnam Storm Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
+        #map { height: 100vh; width: 100vw; }
+        .status-badge {
+            position: absolute; top: 15px; right: 15px; z-index: 1000;
+            background: white; padding: 10px 16px; border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body>
+    <div id="status" class="status-badge">Checking active storms...</div>
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map').setView([16.0, 110.0], 5);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        fetch('storm_track.json')
+            .then(res => res.json())
+            .then(data => {
+                const statusDiv = document.getElementById('status');
+                if (data.status === "active" && data.track && data.track.length > 0) {
+                    statusDiv.innerHTML = `<strong>${data.name}</strong><br>Run: ${data.run_time} UTC`;
+
+                    const points = data.track.map(pt => [pt.lat, pt.lon]);
+                    const polyline = L.polyline(points, { color: '#e63946', weight: 4, dashArray: '6, 6' }).addTo(map);
+
+                    L.marker(points[0]).addTo(map)
+                        .bindPopup(`<b>Current Position: ${data.name}</b><br>Initial observation point`)
+                        .openPopup();
+
+                    map.fitBounds(polyline.getBounds(), { padding: [60, 60] });
+                } else {
+                    statusDiv.innerHTML = '<strong>No Active Storms</strong><br>Western Pacific basin is clear.';
+                }
+            })
+            .catch(() => {
+                document.getElementById('status').innerText = 'Error loading forecast data.';
+            });
+    </script>
+</body>
+</html>
