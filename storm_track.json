@@ -3,23 +3,23 @@
     "storms": [
         {
             "name": "Tropical Depression 22W (Krovanh)",
-            "run_time": "2026-09-08 06:00 UTC",
+            "run_time": "2026-09-08 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 31.1,
-                    "lon": 132.8
+                    "lat": 31.9,
+                    "lon": 133.1
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 32.9,
-                    "lon": 134.0
+                    "lat": 33.6,
+                    "lon": 135.1
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 34.4,
-                    "lon": 136.9
+                    "lat": 34.8,
+                    "lon": 138.3
                 }
             ]
         }
