@@ -7,16 +7,15 @@ from datetime import datetime, timedelta, timezone
 
 discord_url = os.environ.get("DISCORD_WEBHOOK")
 
-wp_storms_map_data = []  # Feeds the Leaflet Map
-wp_official_msgs = []    # Section 1: WP Storms
-wp_invest_msgs = []      # Section 2: WP Invests
-global_msgs = []         # Section 3: Global Storms
+wp_storms_map_data = []  
+wp_official_msgs = []    
+wp_invest_msgs = []      
+global_msgs = []         
 
 # --- METHOD 1: Try the ATCF Data Files for ALL Global Systems ---
 directory_url = "https://ftp.nhc.noaa.gov/atcf/aid_public/"
 try:
     response = requests.get(directory_url, timeout=10)
-    # Match every basin and file number
     all_files = re.findall(r'href="(a?[a-z]{2}\d{2}\d{4}\.dat(?:\.gz)?)"', response.text)
     all_files = list(set(all_files))
 except Exception:
@@ -33,6 +32,13 @@ column_names = [
 basin_map = {"al": "Atlantic", "ep": "East Pacific", "cp": "Central Pacific", 
              "wp": "West Pacific", "io": "Indian Ocean", "sh": "Southern Hemi"}
 
+# Words used for unnamed depressions
+number_names = ["ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", 
+                "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", 
+                "EIGHTEEN", "NINETEEN", "TWENTY"]
+
+now_utc = datetime.now(timezone.utc)
+
 if all_files:
     for file_name in all_files:
         match = re.search(r'a?([a-z]{2})(\d{2})', file_name)
@@ -42,7 +48,6 @@ if all_files:
         is_wp = (basin_code == 'wp')
         is_invest = (int(cy_num) >= 90)
         
-        # Rule: Exclude global Invests. Only track global Official Storms and WP Invests.
         if not is_wp and is_invest:
             continue
             
@@ -52,19 +57,37 @@ if all_files:
             df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
             if df.empty: continue
             
+            # --- 1. THE EXPIRATION FILTER ---
+            # Check if the storm has been dead for more than 48 hours
+            df["DATE_TIME"] = pd.to_numeric(df["DATE_TIME"], errors="coerce")
+            latest_run_val = df["DATE_TIME"].max()
+            if pd.isna(latest_run_val): continue
+            
+            try:
+                latest_run_dt = datetime.strptime(str(int(latest_run_val)), "%Y%m%d%H").replace(tzinfo=timezone.utc)
+                if (now_utc - latest_run_dt) > timedelta(hours=48):
+                    continue # Skip this storm, it's dead
+            except Exception:
+                pass 
+                
+            # --- 2. THE SMART NAMING FILTER ---
             all_names = df["STORMNAME"].dropna().unique()
             valid_names = [n for n in all_names if str(n).upper() not in ["NONAME", "INVEST", "NAN", ""]]
             
             if is_invest:
                 display_name = f"Invest {cy_num}{basin_code.upper()}"
             elif valid_names:
-                display_name = f"{valid_names[0].title()}"
+                first_name = valid_names[0].upper()
+                if first_name in number_names or first_name.isdigit():
+                    display_name = f"Tropical Depression {valid_names[0].title()}"
+                else:
+                    display_name = f"{valid_names[0].title()}"
             else:
                 display_name = f"Cyclone {cy_num}{basin_code.upper()}"
 
-            # If it's a Western Pacific system, extract full track and detail stats
             if is_wp:
-                if not is_invest and valid_names: display_name = f"Typhoon {display_name}"
+                if not is_invest and valid_names and "Tropical Depression" not in display_name: 
+                    display_name = f"Typhoon {display_name}"
                 
                 target_df = df[df["MODEL"] == "TVCN"].copy()
                 if target_df.empty: target_df = df[df["MODEL"] == "OFCL"].copy()
@@ -132,7 +155,6 @@ if all_files:
                         else:
                             wp_official_msgs.append(msg)
             
-            # If it's a Global System, extract a 1-line summary
             else:
                 df["VMAX"] = pd.to_numeric(df["VMAX"], errors="coerce")
                 max_vmax = df["VMAX"].max()
@@ -147,7 +169,6 @@ if all_files:
 # --- METHOD 2: The Aviation Text Fallback (Only if Official WP files are missing) ---
 if not wp_official_msgs:
     urls = [f"https://tgftp.nws.noaa.gov/data/raw/wt/wtpn3{i}.pgtw..txt" for i in range(1, 6)]
-    now_utc = datetime.now(timezone.utc)
     
     for url in urls:
         try:
@@ -243,20 +264,16 @@ with open("storm_track.json", "w") as f:
 if discord_url:
     discord_body = ""
     
-    # 1. Official WP Storms
     if wp_official_msgs:
         discord_body += "🚨 **Active Western Pacific Storms** 🚨\n" + "\n\n".join(wp_official_msgs) + "\n\n"
     else:
         discord_body += "✅ **No Active Western Pacific Storms**\n\n"
         
-    # 2. Notable WP Invests
     if wp_invest_msgs:
         discord_body += "🔍 **Notable Invests (WP Region)**\n" + "\n\n".join(wp_invest_msgs) + "\n\n"
         
-    # 3. Global Official Storms
     if global_msgs:
         discord_body += "🌍 **Other Notable Global Storms**\n" + "\n".join(global_msgs)
         
-    # Prevent firing an empty webhook if absolutely nothing is active globally
     if wp_official_msgs or wp_invest_msgs or global_msgs:
         requests.post(discord_url, json={"content": discord_body})
