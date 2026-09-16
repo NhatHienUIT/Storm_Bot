@@ -3,53 +3,53 @@
     "storms": [
         {
             "name": "Tropical Storm 24W (Dujuan)",
-            "run_time": "2026-09-16 12:00 UTC",
+            "run_time": "2026-09-16 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 16.5,
-                    "lon": 149.5
+                    "lat": 17.6,
+                    "lon": 149.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 19.6,
-                    "lon": 149.4
+                    "lat": 21.0,
+                    "lon": 149.0
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 22.5,
-                    "lon": 147.7
+                    "lat": 23.5,
+                    "lon": 146.5
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 24.1,
-                    "lon": 145.1
+                    "lat": 24.8,
+                    "lon": 143.6
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 25.0,
-                    "lon": 142.7
+                    "lat": 25.5,
+                    "lon": 141.5
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 26.0,
-                    "lon": 140.9
+                    "lat": 26.7,
+                    "lon": 139.8
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 27.7,
-                    "lon": 139.9
+                    "lat": 28.4,
+                    "lon": 139.0
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 31.6,
-                    "lon": 140.1
+                    "lat": 32.9,
+                    "lon": 141.0
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 38.1,
-                    "lon": 146.0
+                    "lat": 39.2,
+                    "lon": 148.8
                 }
             ]
         }
