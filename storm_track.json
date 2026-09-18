@@ -2,49 +2,49 @@
     "status": "active",
     "storms": [
         {
-            "name": "Tropical Storm 24W (Dujuan)",
-            "run_time": "2026-09-18 12:00 UTC",
+            "name": "Typhoon 24W (Dujuan)",
+            "run_time": "2026-09-18 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 25.4,
-                    "lon": 141.7
+                    "lat": 26.2,
+                    "lon": 140.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 26.2,
-                    "lon": 139.9
+                    "lat": 27.3,
+                    "lon": 139.1
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 27.6,
-                    "lon": 138.4
+                    "lat": 28.6,
+                    "lon": 137.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 28.8,
-                    "lon": 137.6
+                    "lat": 30.1,
+                    "lon": 137.5
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 30.5,
-                    "lon": 137.7
+                    "lat": 31.9,
+                    "lon": 138.0
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 32.6,
-                    "lon": 139.0
+                    "lat": 33.9,
+                    "lon": 140.0
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 35.2,
-                    "lon": 142.3
+                    "lat": 36.5,
+                    "lon": 144.2
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 40.2,
-                    "lon": 154.4
+                    "lat": 41.3,
+                    "lon": 157.8
                 }
             ]
         }
