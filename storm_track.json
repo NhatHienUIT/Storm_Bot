@@ -2,54 +2,54 @@
     "status": "active",
     "storms": [
         {
-            "name": "Typhoon 24W (Dujuan)",
-            "run_time": "2026-09-17 18:00 UTC",
+            "name": "Tropical Storm 24W (Dujuan)",
+            "run_time": "2026-09-18 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 25.2,
-                    "lon": 146.0
+                    "lat": 25.1,
+                    "lon": 144.5
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 26.5,
-                    "lon": 142.8
+                    "lat": 25.7,
+                    "lon": 141.9
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 27.2,
-                    "lon": 140.9
+                    "lat": 26.7,
+                    "lon": 140.2
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 28.4,
-                    "lon": 139.1
+                    "lat": 28.1,
+                    "lon": 138.9
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 30.3,
-                    "lon": 138.3
+                    "lat": 30.1,
+                    "lon": 138.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 32.6,
-                    "lon": 138.8
+                    "lat": 32.3,
+                    "lon": 139.3
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 34.8,
-                    "lon": 140.6
+                    "lat": 34.7,
+                    "lon": 141.4
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 40.9,
-                    "lon": 149.4
+                    "lat": 40.5,
+                    "lon": 151.4
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 47.9,
-                    "lon": 162.5
+                    "lat": 45.9,
+                    "lon": 164.6
                 }
             ]
         }
