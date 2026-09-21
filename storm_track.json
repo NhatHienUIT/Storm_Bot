@@ -3,33 +3,28 @@
     "storms": [
         {
             "name": "Typhoon 24W (Dujuan)",
-            "run_time": "2026-09-21 00:00 UTC",
+            "run_time": "2026-09-21 06:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 32.4,
-                    "lon": 138.7
+                    "lat": 33.7,
+                    "lon": 139.8
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 34.8,
-                    "lon": 141.7
+                    "lat": 36.2,
+                    "lon": 143.9
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 37.2,
-                    "lon": 146.8
+                    "lat": 38.4,
+                    "lon": 149.6
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 39.1,
-                    "lon": 153.0
-                },
-                {
-                    "FORECAST_HOUR": 48,
-                    "lat": 40.6,
-                    "lon": 160.2
+                    "lat": 39.9,
+                    "lon": 156.1
                 }
             ]
         }
