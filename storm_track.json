@@ -2,39 +2,34 @@
     "status": "active",
     "storms": [
         {
-            "name": "Tropical Storm 24W (Dujuan)",
-            "run_time": "2026-09-20 18:00 UTC",
+            "name": "Typhoon 24W (Dujuan)",
+            "run_time": "2026-09-21 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 31.3,
-                    "lon": 137.9
+                    "lat": 32.4,
+                    "lon": 138.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 33.5,
-                    "lon": 139.9
+                    "lat": 34.8,
+                    "lon": 141.7
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 36.0,
-                    "lon": 143.9
+                    "lat": 37.2,
+                    "lon": 146.8
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 38.4,
-                    "lon": 149.8
+                    "lat": 39.1,
+                    "lon": 153.0
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 40.1,
-                    "lon": 156.5
-                },
-                {
-                    "FORECAST_HOUR": 60,
-                    "lat": 41.6,
-                    "lon": 164.3
+                    "lat": 40.6,
+                    "lon": 160.2
                 }
             ]
         }
