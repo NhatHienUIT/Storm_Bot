@@ -3,53 +3,53 @@
     "storms": [
         {
             "name": "Tropical Storm 25W (Surigae)",
-            "run_time": "2026-09-25 06:00 UTC",
+            "run_time": "2026-09-25 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 20.7,
-                    "lon": 129.3
+                    "lat": 21.4,
+                    "lon": 128.2
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 21.8,
-                    "lon": 128.0
+                    "lat": 22.5,
+                    "lon": 127.2
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 22.8,
-                    "lon": 127.5
+                    "lat": 23.6,
+                    "lon": 127.0
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 23.9,
-                    "lon": 127.4
+                    "lat": 24.7,
+                    "lon": 127.5
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 24.9,
-                    "lon": 128.1
+                    "lat": 25.8,
+                    "lon": 128.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 26.0,
-                    "lon": 129.4
+                    "lat": 26.9,
+                    "lon": 130.0
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 27.2,
-                    "lon": 131.0
+                    "lat": 28.1,
+                    "lon": 131.9
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 29.2,
-                    "lon": 134.2
+                    "lat": 30.4,
+                    "lon": 136.1
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 31.7,
-                    "lon": 138.1
+                    "lat": 33.0,
+                    "lon": 140.0
                 }
             ]
         }
