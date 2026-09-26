@@ -3,53 +3,53 @@
     "storms": [
         {
             "name": "Typhoon 25W (Surigae)",
-            "run_time": "2026-09-26 06:00 UTC",
+            "run_time": "2026-09-26 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 22.9,
-                    "lon": 126.8
+                    "lat": 23.3,
+                    "lon": 126.9
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 24.0,
-                    "lon": 127.0
+                    "lat": 24.3,
+                    "lon": 127.4
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 25.1,
-                    "lon": 127.9
+                    "lat": 25.3,
+                    "lon": 128.5
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 26.2,
-                    "lon": 129.2
+                    "lat": 26.5,
+                    "lon": 130.1
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 27.2,
-                    "lon": 130.7
+                    "lat": 27.5,
+                    "lon": 131.8
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 28.1,
-                    "lon": 132.4
+                    "lat": 28.5,
+                    "lon": 133.4
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 29.3,
-                    "lon": 134.5
+                    "lat": 29.5,
+                    "lon": 135.2
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 31.6,
-                    "lon": 138.6
+                    "lat": 31.5,
+                    "lon": 138.7
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 34.1,
-                    "lon": 142.9
+                    "lat": 33.7,
+                    "lon": 142.8
                 }
             ]
         }
