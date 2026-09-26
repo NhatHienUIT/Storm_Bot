@@ -2,54 +2,54 @@
     "status": "active",
     "storms": [
         {
-            "name": "Tropical Storm 25W (Surigae)",
-            "run_time": "2026-09-26 00:00 UTC",
+            "name": "Typhoon 25W (Surigae)",
+            "run_time": "2026-09-26 06:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 22.4,
-                    "lon": 127.0
+                    "lat": 22.9,
+                    "lon": 126.8
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 23.4,
-                    "lon": 126.9
+                    "lat": 24.0,
+                    "lon": 127.0
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 24.5,
-                    "lon": 127.5
+                    "lat": 25.1,
+                    "lon": 127.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 25.6,
-                    "lon": 128.6
+                    "lat": 26.2,
+                    "lon": 129.2
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 26.8,
-                    "lon": 130.0
+                    "lat": 27.2,
+                    "lon": 130.7
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 27.8,
-                    "lon": 131.6
+                    "lat": 28.1,
+                    "lon": 132.4
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 28.8,
-                    "lon": 133.5
+                    "lat": 29.3,
+                    "lon": 134.5
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 31.2,
-                    "lon": 137.7
+                    "lat": 31.6,
+                    "lon": 138.6
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 33.7,
-                    "lon": 142.0
+                    "lat": 34.1,
+                    "lon": 142.9
                 }
             ]
         }
