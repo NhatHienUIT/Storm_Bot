@@ -2,49 +2,49 @@
     "status": "active",
     "storms": [
         {
-            "name": "Super Typhoon 25W (Surigae)",
-            "run_time": "2026-09-27 18:00 UTC",
+            "name": "Typhoon 25W (Surigae)",
+            "run_time": "2026-09-28 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 26.3,
-                    "lon": 130.0
+                    "lat": 26.6,
+                    "lon": 130.9
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 27.2,
-                    "lon": 131.7
+                    "lat": 27.5,
+                    "lon": 132.6
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 28.1,
-                    "lon": 133.4
+                    "lat": 28.4,
+                    "lon": 134.2
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 29.0,
-                    "lon": 135.3
+                    "lat": 29.2,
+                    "lon": 136.0
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 30.0,
-                    "lon": 137.0
+                    "lat": 30.2,
+                    "lon": 137.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 31.2,
-                    "lon": 139.2
+                    "lat": 31.5,
+                    "lon": 139.3
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 32.9,
-                    "lon": 141.3
+                    "lat": 33.3,
+                    "lon": 141.4
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 37.7,
-                    "lon": 148.2
+                    "lat": 39.1,
+                    "lon": 151.4
                 }
             ]
         }
