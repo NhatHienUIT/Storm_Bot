@@ -3,48 +3,43 @@
     "storms": [
         {
             "name": "Typhoon 25W (Surigae)",
-            "run_time": "2026-09-28 06:00 UTC",
+            "run_time": "2026-09-28 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
                     "lat": 27.5,
-                    "lon": 131.6
+                    "lon": 132.8
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 28.5,
-                    "lon": 133.2
+                    "lat": 28.4,
+                    "lon": 134.4
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 29.5,
-                    "lon": 135.0
+                    "lat": 29.4,
+                    "lon": 136.4
                 },
                 {
                     "FORECAST_HOUR": 36,
                     "lat": 30.5,
-                    "lon": 137.0
+                    "lon": 138.2
                 },
                 {
                     "FORECAST_HOUR": 48,
                     "lat": 31.9,
-                    "lon": 138.9
+                    "lon": 140.1
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 33.3,
-                    "lon": 140.9
+                    "lat": 33.7,
+                    "lon": 142.2
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 35.8,
-                    "lon": 144.3
-                },
-                {
-                    "FORECAST_HOUR": 96,
-                    "lat": 43.2,
-                    "lon": 155.8
+                    "lat": 36.5,
+                    "lon": 146.3
                 }
             ]
         }
