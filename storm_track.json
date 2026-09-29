@@ -3,38 +3,33 @@
     "storms": [
         {
             "name": "Tropical Storm 25W (Surigae)",
-            "run_time": "2026-09-29 06:00 UTC",
+            "run_time": "2026-09-29 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 29.0,
-                    "lon": 135.0
+                    "lat": 29.2,
+                    "lon": 136.3
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 30.0,
-                    "lon": 136.9
+                    "lat": 30.5,
+                    "lon": 138.3
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 31.4,
-                    "lon": 138.8
+                    "lat": 32.1,
+                    "lon": 140.3
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 33.2,
-                    "lon": 141.0
+                    "lat": 34.1,
+                    "lon": 142.9
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 35.2,
-                    "lon": 144.0
-                },
-                {
-                    "FORECAST_HOUR": 60,
-                    "lat": 38.0,
-                    "lon": 149.4
+                    "lat": 36.8,
+                    "lon": 147.3
                 }
             ]
         }
