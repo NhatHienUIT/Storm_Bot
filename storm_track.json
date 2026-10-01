@@ -1,4 +1,57 @@
 {
-    "status": "inactive",
-    "storms": []
+    "status": "active",
+    "storms": [
+        {
+            "name": "Tropical Storm 26W (Choi-Wan)",
+            "run_time": "2026-10-01 12:00 UTC",
+            "is_invest": false,
+            "track": [
+                {
+                    "FORECAST_HOUR": 0,
+                    "lat": 16.5,
+                    "lon": 145.8
+                },
+                {
+                    "FORECAST_HOUR": 12,
+                    "lat": 16.7,
+                    "lon": 144.7
+                },
+                {
+                    "FORECAST_HOUR": 24,
+                    "lat": 17.4,
+                    "lon": 144.3
+                },
+                {
+                    "FORECAST_HOUR": 36,
+                    "lat": 18.5,
+                    "lon": 144.7
+                },
+                {
+                    "FORECAST_HOUR": 48,
+                    "lat": 19.8,
+                    "lon": 145.2
+                },
+                {
+                    "FORECAST_HOUR": 60,
+                    "lat": 21.2,
+                    "lon": 145.8
+                },
+                {
+                    "FORECAST_HOUR": 72,
+                    "lat": 22.8,
+                    "lon": 145.9
+                },
+                {
+                    "FORECAST_HOUR": 96,
+                    "lat": 26.3,
+                    "lon": 145.3
+                },
+                {
+                    "FORECAST_HOUR": 20,
+                    "lat": 32.4,
+                    "lon": 146.4
+                }
+            ]
+        }
+    ]
 }
