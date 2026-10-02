@@ -3,53 +3,53 @@
     "storms": [
         {
             "name": "Tropical Storm 26W (Choi-Wan)",
-            "run_time": "2026-10-01 18:00 UTC",
+            "run_time": "2026-10-02 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 16.9,
-                    "lon": 145.1
+                    "lat": 17.0,
+                    "lon": 144.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 17.3,
+                    "lat": 17.7,
                     "lon": 144.5
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 18.2,
-                    "lon": 144.5
+                    "lat": 18.7,
+                    "lon": 144.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 19.4,
-                    "lon": 145.0
+                    "lat": 20.0,
+                    "lon": 145.6
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 20.7,
-                    "lon": 145.5
+                    "lat": 21.3,
+                    "lon": 146.0
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 22.2,
-                    "lon": 145.9
+                    "lat": 22.7,
+                    "lon": 146.2
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 23.7,
-                    "lon": 145.7
+                    "lat": 24.4,
+                    "lon": 145.8
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 27.8,
-                    "lon": 145.0
+                    "lat": 28.8,
+                    "lon": 145.1
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 33.9,
-                    "lon": 147.4
+                    "lat": 35.6,
+                    "lon": 148.4
                 }
             ]
         }
