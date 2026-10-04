@@ -3,48 +3,43 @@
     "storms": [
         {
             "name": "Typhoon 26W (Choi-Wan)",
-            "run_time": "2026-10-04 00:00 UTC",
+            "run_time": "2026-10-04 06:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 22.1,
-                    "lon": 147.1
+                    "lat": 22.9,
+                    "lon": 147.0
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 23.7,
-                    "lon": 147.1
+                    "lat": 24.5,
+                    "lon": 146.8
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 25.5,
-                    "lon": 146.7
-                },
-                {
-                    "FORECAST_HOUR": 36,
-                    "lat": 27.4,
-                    "lon": 146.1
-                },
-                {
-                    "FORECAST_HOUR": 48,
-                    "lat": 30.2,
+                    "lat": 26.3,
                     "lon": 146.2
                 },
                 {
+                    "FORECAST_HOUR": 36,
+                    "lat": 28.6,
+                    "lon": 145.9
+                },
+                {
+                    "FORECAST_HOUR": 48,
+                    "lat": 31.9,
+                    "lon": 146.8
+                },
+                {
                     "FORECAST_HOUR": 60,
-                    "lat": 34.2,
-                    "lon": 148.2
+                    "lat": 36.9,
+                    "lon": 150.4
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 39.8,
-                    "lon": 153.3
-                },
-                {
-                    "FORECAST_HOUR": 96,
-                    "lat": 53.3,
-                    "lon": 169.4
+                    "lat": 43.1,
+                    "lon": 157.1
                 }
             ]
         }
