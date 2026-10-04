@@ -3,43 +3,43 @@
     "storms": [
         {
             "name": "Super Typhoon 26W (Choi-Wan)",
-            "run_time": "2026-10-04 12:00 UTC",
+            "run_time": "2026-10-04 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 23.3,
-                    "lon": 146.9
+                    "lat": 24.4,
+                    "lon": 147.1
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 25.0,
-                    "lon": 146.5
+                    "lat": 26.4,
+                    "lon": 146.6
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 27.0,
-                    "lon": 146.0
-                },
-                {
-                    "FORECAST_HOUR": 36,
-                    "lat": 29.7,
+                    "lat": 28.7,
                     "lon": 146.3
                 },
                 {
+                    "FORECAST_HOUR": 36,
+                    "lat": 31.9,
+                    "lon": 147.2
+                },
+                {
                     "FORECAST_HOUR": 48,
-                    "lat": 33.7,
-                    "lon": 148.4
+                    "lat": 36.7,
+                    "lon": 150.7
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 39.2,
-                    "lon": 153.5
+                    "lat": 42.9,
+                    "lon": 157.6
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 45.5,
-                    "lon": 161.0
+                    "lat": 49.8,
+                    "lon": 166.0
                 }
             ]
         }
