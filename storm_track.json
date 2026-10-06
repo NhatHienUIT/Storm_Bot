@@ -3,142 +3,132 @@
     "storms": [
         {
             "name": "Typhoon 15E (Nolo)",
-            "run_time": "2026-10-05 06:00 UTC",
+            "run_time": "2026-10-05 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 25.3,
-                    "lon": 177.7
+                    "lat": 25.8,
+                    "lon": 174.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 25.7,
-                    "lon": 174.6
+                    "lat": 25.8,
+                    "lon": 171.1
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 25.7,
-                    "lon": 171.0
+                    "lat": 25.8,
+                    "lon": 166.8
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 25.7,
-                    "lon": 166.7
+                    "lat": 26.4,
+                    "lon": 162.1
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 26.2,
-                    "lon": 162.2
+                    "lat": 27.2,
+                    "lon": 158.2
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 26.9,
-                    "lon": 158.3
+                    "lat": 28.1,
+                    "lon": 155.1
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 27.7,
-                    "lon": 154.7
+                    "lat": 29.1,
+                    "lon": 152.9
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 29.4,
-                    "lon": 150.5
+                    "lat": 30.8,
+                    "lon": 150.4
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 31.2,
-                    "lon": 148.9
+                    "lat": 32.6,
+                    "lon": 150.2
                 }
             ]
         },
         {
             "name": "Typhoon 26W (Choi-Wan)",
-            "run_time": "2026-10-05 06:00 UTC",
+            "run_time": "2026-10-05 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 26.3,
-                    "lon": 146.3
+                    "lat": 28.4,
+                    "lon": 145.5
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 28.5,
-                    "lon": 146.0
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 31.8,
+                    "lat": 31.6,
                     "lon": 146.9
                 },
                 {
+                    "FORECAST_HOUR": 24,
+                    "lat": 36.7,
+                    "lon": 150.6
+                },
+                {
                     "FORECAST_HOUR": 36,
-                    "lat": 36.6,
-                    "lon": 150.3
-                },
-                {
-                    "FORECAST_HOUR": 48,
-                    "lat": 43.0,
-                    "lon": 157.6
-                },
-                {
-                    "FORECAST_HOUR": 60,
-                    "lat": 49.9,
-                    "lon": 166.8
+                    "lat": 42.9,
+                    "lon": 157.2
                 }
             ]
         },
         {
             "name": "Tropical Storm 27W (Koguma)",
-            "run_time": "2026-10-05 06:00 UTC",
+            "run_time": "2026-10-05 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 11.0,
-                    "lon": 168.0
+                    "lat": 12.2,
+                    "lon": 167.6
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 12.3,
-                    "lon": 167.7
+                    "lat": 13.4,
+                    "lon": 166.7
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 13.6,
-                    "lon": 167.0
+                    "lat": 14.7,
+                    "lon": 165.5
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 14.9,
-                    "lon": 165.9
+                    "lat": 15.8,
+                    "lon": 164.0
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 16.0,
-                    "lon": 164.5
+                    "lat": 16.8,
+                    "lon": 162.1
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 17.0,
-                    "lon": 162.5
+                    "lat": 17.9,
+                    "lon": 159.6
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 17.9,
-                    "lon": 159.9
+                    "lat": 19.1,
+                    "lon": 156.7
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 19.9,
-                    "lon": 154.6
+                    "lat": 21.4,
+                    "lon": 151.8
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 22.8,
-                    "lon": 149.6
+                    "lat": 24.6,
+                    "lon": 148.3
                 }
             ]
         }
