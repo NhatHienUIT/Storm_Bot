@@ -1,4 +1,57 @@
 {
-    "status": "inactive",
-    "storms": []
+    "status": "active",
+    "storms": [
+        {
+            "name": "Tropical Storm 27W (Koguma)",
+            "run_time": "2026-10-07 00:00 UTC",
+            "is_invest": false,
+            "track": [
+                {
+                    "FORECAST_HOUR": 0,
+                    "lat": 15.3,
+                    "lon": 164.0
+                },
+                {
+                    "FORECAST_HOUR": 12,
+                    "lat": 16.1,
+                    "lon": 162.5
+                },
+                {
+                    "FORECAST_HOUR": 24,
+                    "lat": 16.8,
+                    "lon": 160.8
+                },
+                {
+                    "FORECAST_HOUR": 36,
+                    "lat": 17.5,
+                    "lon": 158.6
+                },
+                {
+                    "FORECAST_HOUR": 48,
+                    "lat": 18.4,
+                    "lon": 156.4
+                },
+                {
+                    "FORECAST_HOUR": 60,
+                    "lat": 19.5,
+                    "lon": 153.9
+                },
+                {
+                    "FORECAST_HOUR": 72,
+                    "lat": 20.9,
+                    "lon": 151.5
+                },
+                {
+                    "FORECAST_HOUR": 96,
+                    "lat": 23.5,
+                    "lon": 148.1
+                },
+                {
+                    "FORECAST_HOUR": 20,
+                    "lat": 26.2,
+                    "lon": 145.9
+                }
+            ]
+        }
+    ]
 }
