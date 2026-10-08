@@ -3,105 +3,105 @@
     "storms": [
         {
             "name": "Tropical Storm 15E (Nolo)",
-            "run_time": "2026-10-07 18:00 UTC",
+            "run_time": "2026-10-08 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 26.2,
-                    "lon": 157.7
+                    "lat": 26.9,
+                    "lon": 156.0
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 27.1,
-                    "lon": 154.3
+                    "lat": 27.9,
+                    "lon": 153.0
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 28.1,
-                    "lon": 151.5
+                    "lat": 28.9,
+                    "lon": 150.7
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 29.2,
-                    "lon": 149.7
+                    "lat": 30.1,
+                    "lon": 149.1
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 30.7,
-                    "lon": 149.0
+                    "lat": 32.0,
+                    "lon": 148.8
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 32.8,
-                    "lon": 149.6
+                    "lat": 34.2,
+                    "lon": 150.5
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 34.7,
-                    "lon": 152.1
+                    "lat": 35.8,
+                    "lon": 153.4
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 37.2,
-                    "lon": 159.6
+                    "lat": 38.5,
+                    "lon": 162.5
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 40.3,
-                    "lon": 174.0
+                    "lat": 42.9,
+                    "lon": 178.6
                 }
             ]
         },
         {
             "name": "Tropical Storm 27W (Koguma)",
-            "run_time": "2026-10-07 18:00 UTC",
+            "run_time": "2026-10-08 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 16.1,
-                    "lon": 161.6
+                    "lat": 16.9,
+                    "lon": 161.2
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 16.9,
-                    "lon": 159.8
+                    "lat": 17.6,
+                    "lon": 159.2
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 17.7,
-                    "lon": 157.7
+                    "lat": 18.5,
+                    "lon": 157.1
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 18.7,
-                    "lon": 155.4
+                    "lat": 19.6,
+                    "lon": 154.8
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 19.7,
-                    "lon": 153.1
+                    "lat": 20.8,
+                    "lon": 152.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 21.0,
-                    "lon": 151.0
+                    "lat": 22.0,
+                    "lon": 150.7
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 22.3,
-                    "lon": 149.3
+                    "lat": 23.3,
+                    "lon": 148.5
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 24.7,
-                    "lon": 146.8
+                    "lat": 25.3,
+                    "lon": 145.9
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 27.3,
-                    "lon": 145.5
+                    "lat": 27.7,
+                    "lon": 144.8
                 }
             ]
         }
