@@ -3,75 +3,70 @@
     "storms": [
         {
             "name": "Tropical Depression 28W (Twentyeight)",
-            "run_time": "2026-10-12 06:00 UTC",
+            "run_time": "2026-10-12 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 16.8,
-                    "lon": 149.8
+                    "lat": 17.5,
+                    "lon": 148.2
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 17.6,
-                    "lon": 148.3
+                    "lat": 18.6,
+                    "lon": 146.6
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 18.6,
-                    "lon": 146.7
-                },
-                {
-                    "FORECAST_HOUR": 36,
-                    "lat": 19.8,
+                    "lat": 19.7,
                     "lon": 144.8
                 },
                 {
-                    "FORECAST_HOUR": 48,
+                    "FORECAST_HOUR": 36,
                     "lat": 20.9,
-                    "lon": 143.0
+                    "lon": 142.9
+                },
+                {
+                    "FORECAST_HOUR": 48,
+                    "lat": 21.7,
+                    "lon": 141.2
                 }
             ]
         },
         {
             "name": "Typhoon 27W (Koguma)",
-            "run_time": "2026-10-12 06:00 UTC",
+            "run_time": "2026-10-12 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 29.8,
-                    "lon": 147.7
+                    "lat": 32.2,
+                    "lon": 149.6
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 32.6,
-                    "lon": 149.7
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 35.3,
+                    "lat": 34.9,
                     "lon": 152.9
                 },
                 {
+                    "FORECAST_HOUR": 24,
+                    "lat": 37.6,
+                    "lon": 156.3
+                },
+                {
                     "FORECAST_HOUR": 36,
-                    "lat": 38.0,
-                    "lon": 156.5
+                    "lat": 40.1,
+                    "lon": 160.2
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 40.4,
-                    "lon": 160.5
+                    "lat": 41.9,
+                    "lon": 164.8
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 42.0,
-                    "lon": 165.2
-                },
-                {
-                    "FORECAST_HOUR": 72,
-                    "lat": 42.9,
-                    "lon": 170.3
+                    "lat": 43.1,
+                    "lon": 170.1
                 }
             ]
         }
