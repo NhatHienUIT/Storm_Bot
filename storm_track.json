@@ -1,32 +1,4 @@
 {
-    "status": "active",
-    "storms": [
-        {
-            "name": "Tropical Depression 28W (Twentyeight)",
-            "run_time": "2026-10-13 18:00 UTC",
-            "is_invest": false,
-            "track": [
-                {
-                    "FORECAST_HOUR": 0,
-                    "lat": 20.1,
-                    "lon": 144.5
-                },
-                {
-                    "FORECAST_HOUR": 12,
-                    "lat": 21.2,
-                    "lon": 142.8
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 22.2,
-                    "lon": 141.2
-                },
-                {
-                    "FORECAST_HOUR": 36,
-                    "lat": 23.0,
-                    "lon": 139.5
-                }
-            ]
-        }
-    ]
+    "status": "inactive",
+    "storms": []
 }
