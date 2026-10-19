@@ -3,53 +3,53 @@
     "storms": [
         {
             "name": "Super Typhoon 29W (Champi)",
-            "run_time": "2026-10-19 12:00 UTC",
+            "run_time": "2026-10-19 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 14.8,
-                    "lon": 137.6
+                    "lat": 15.4,
+                    "lon": 136.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 15.9,
-                    "lon": 135.5
+                    "lat": 16.5,
+                    "lon": 134.4
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 17.0,
-                    "lon": 133.0
+                    "lat": 17.6,
+                    "lon": 131.7
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 18.1,
-                    "lon": 130.5
+                    "lat": 18.9,
+                    "lon": 129.3
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 19.3,
-                    "lon": 128.5
+                    "lat": 19.8,
+                    "lon": 127.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 20.3,
-                    "lon": 126.9
+                    "lat": 20.8,
+                    "lon": 126.2
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 21.1,
-                    "lon": 125.7
+                    "lat": 21.9,
+                    "lon": 125.2
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 23.8,
-                    "lon": 123.7
+                    "lat": 24.8,
+                    "lon": 123.5
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 27.6,
-                    "lon": 123.4
+                    "lat": 28.9,
+                    "lon": 123.9
                 }
             ]
         }
