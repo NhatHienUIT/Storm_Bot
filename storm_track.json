@@ -3,48 +3,48 @@
     "storms": [
         {
             "name": "Typhoon 29W (Champi)",
-            "run_time": "2026-10-22 06:00 UTC",
+            "run_time": "2026-10-22 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 20.9,
-                    "lon": 125.4
+                    "lat": 21.2,
+                    "lon": 124.9
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 22.2,
-                    "lon": 124.3
+                    "lat": 22.4,
+                    "lon": 123.9
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 23.9,
-                    "lon": 123.3
+                    "lat": 24.2,
+                    "lon": 122.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 25.7,
-                    "lon": 122.8
+                    "lat": 26.3,
+                    "lon": 123.0
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 28.0,
-                    "lon": 123.6
+                    "lat": 28.8,
+                    "lon": 124.6
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 30.5,
-                    "lon": 125.7
+                    "lat": 30.9,
+                    "lon": 127.1
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 32.0,
-                    "lon": 128.4
+                    "lat": 32.1,
+                    "lon": 130.5
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 33.5,
-                    "lon": 135.2
+                    "lat": 32.9,
+                    "lon": 137.9
                 }
             ]
         }
