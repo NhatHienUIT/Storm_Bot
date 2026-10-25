@@ -95,28 +95,33 @@
         },
         {
             "name": "Tropical Storm 29W (Champi)",
-            "run_time": "2026-10-25 12:00 UTC",
+            "run_time": "2026-10-25 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 30.7,
-                    "lon": 126.3
+                    "lat": 31.2,
+                    "lon": 127.4
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 31.5,
-                    "lon": 129.0
+                    "lat": 31.9,
+                    "lon": 130.5
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 32.2,
-                    "lon": 132.6
+                    "lat": 32.6,
+                    "lon": 135.0
                 },
                 {
-                    "FORECAST_HOUR": 36,
-                    "lat": 33.0,
-                    "lon": 136.2
+                    "FORECAST_HOUR": 12,
+                    "lat": 31.9,
+                    "lon": 130.5
+                },
+                {
+                    "FORECAST_HOUR": 24,
+                    "lat": 32.6,
+                    "lon": 135.0
                 }
             ]
         }
