@@ -2,54 +2,54 @@
     "status": "active",
     "storms": [
         {
-            "name": "Super Typhoon 30W (In-Fa)",
-            "run_time": "2026-10-28 12:00 UTC",
+            "name": "Typhoon 30W (In-Fa)",
+            "run_time": "2026-10-28 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 15.4,
-                    "lon": 157.6
+                    "lat": 15.6,
+                    "lon": 156.3
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 15.8,
-                    "lon": 154.9
+                    "lat": 16.2,
+                    "lon": 153.3
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 16.5,
-                    "lon": 151.6
+                    "lat": 17.0,
+                    "lon": 149.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 17.6,
-                    "lon": 148.1
+                    "lat": 18.3,
+                    "lon": 146.7
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 19.1,
-                    "lon": 145.0
+                    "lat": 19.9,
+                    "lon": 144.2
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 20.7,
-                    "lon": 143.1
+                    "lat": 21.3,
+                    "lon": 143.3
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 21.6,
-                    "lon": 142.7
+                    "lat": 21.8,
+                    "lon": 142.8
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 21.8,
-                    "lon": 141.4
+                    "lat": 21.7,
+                    "lon": 140.8
                 },
                 {
                     "FORECAST_HOUR": 20,
-                    "lat": 21.6,
-                    "lon": 137.4
+                    "lat": 21.8,
+                    "lon": 137.7
                 }
             ]
         }
