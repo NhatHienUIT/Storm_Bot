@@ -3,48 +3,43 @@
     "storms": [
         {
             "name": "Typhoon 30W (In-Fa)",
-            "run_time": "2026-11-02 18:00 UTC",
+            "run_time": "2026-11-03 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 23.2,
-                    "lon": 139.9
+                    "lat": 23.1,
+                    "lon": 139.3
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 23.6,
-                    "lon": 139.2
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 24.1,
+                    "lat": 23.5,
                     "lon": 138.7
                 },
                 {
+                    "FORECAST_HOUR": 24,
+                    "lat": 24.4,
+                    "lon": 138.3
+                },
+                {
                     "FORECAST_HOUR": 36,
-                    "lat": 25.4,
-                    "lon": 138.6
+                    "lat": 26.0,
+                    "lon": 138.5
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 27.2,
-                    "lon": 139.1
+                    "lat": 28.4,
+                    "lon": 139.8
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 30.1,
-                    "lon": 141.6
+                    "lat": 32.1,
+                    "lon": 143.6
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 34.4,
-                    "lon": 146.5
-                },
-                {
-                    "FORECAST_HOUR": 96,
-                    "lat": 45.4,
-                    "lon": 162.9
+                    "lat": 37.4,
+                    "lon": 150.0
                 }
             ]
         }
