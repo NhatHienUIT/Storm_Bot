@@ -1,27 +1,4 @@
 {
-    "status": "active",
-    "storms": [
-        {
-            "name": "Typhoon 30W (In-Fa)",
-            "run_time": "2026-11-05 00:00 UTC",
-            "is_invest": false,
-            "track": [
-                {
-                    "FORECAST_HOUR": 0,
-                    "lat": 28.1,
-                    "lon": 140.0
-                },
-                {
-                    "FORECAST_HOUR": 12,
-                    "lat": 32.4,
-                    "lon": 144.7
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 38.2,
-                    "lon": 152.1
-                }
-            ]
-        }
-    ]
+    "status": "inactive",
+    "storms": []
 }
