@@ -3,48 +3,48 @@
     "storms": [
         {
             "name": "Tropical Storm 31W (Cempaka)",
-            "run_time": "2026-11-07 12:00 UTC",
+            "run_time": "2026-11-07 18:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 20.6,
-                    "lon": 141.6
+                    "lat": 21.2,
+                    "lon": 139.9
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 21.7,
-                    "lon": 138.9
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 22.6,
-                    "lon": 136.5
-                },
-                {
-                    "FORECAST_HOUR": 36,
-                    "lat": 23.4,
-                    "lon": 135.1
-                },
-                {
-                    "FORECAST_HOUR": 48,
-                    "lat": 24.1,
-                    "lon": 135.4
-                },
-                {
-                    "FORECAST_HOUR": 60,
-                    "lat": 24.8,
+                    "lat": 22.1,
                     "lon": 137.3
                 },
                 {
+                    "FORECAST_HOUR": 24,
+                    "lat": 23.1,
+                    "lon": 135.1
+                },
+                {
+                    "FORECAST_HOUR": 36,
+                    "lat": 23.9,
+                    "lon": 134.6
+                },
+                {
+                    "FORECAST_HOUR": 48,
+                    "lat": 24.5,
+                    "lon": 135.9
+                },
+                {
+                    "FORECAST_HOUR": 60,
+                    "lat": 25.2,
+                    "lon": 138.5
+                },
+                {
                     "FORECAST_HOUR": 72,
-                    "lat": 25.7,
-                    "lon": 140.8
+                    "lat": 26.1,
+                    "lon": 142.1
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 27.3,
-                    "lon": 147.5
+                    "lat": 27.5,
+                    "lon": 148.8
                 }
             ]
         }
