@@ -3,53 +3,48 @@
     "storms": [
         {
             "name": "Tropical Storm 31W (Cempaka)",
-            "run_time": "2026-11-07 06:00 UTC",
+            "run_time": "2026-11-07 12:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 20.0,
-                    "lon": 142.8
+                    "lat": 20.6,
+                    "lon": 141.6
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 21.2,
-                    "lon": 140.1
+                    "lat": 21.7,
+                    "lon": 138.9
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 22.2,
-                    "lon": 137.3
+                    "lat": 22.6,
+                    "lon": 136.5
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 23.0,
-                    "lon": 135.3
+                    "lat": 23.4,
+                    "lon": 135.1
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 23.8,
-                    "lon": 134.7
+                    "lat": 24.1,
+                    "lon": 135.4
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 24.4,
-                    "lon": 135.9
+                    "lat": 24.8,
+                    "lon": 137.3
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 25.1,
-                    "lon": 138.6
+                    "lat": 25.7,
+                    "lon": 140.8
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 27.2,
-                    "lon": 145.4
-                },
-                {
-                    "FORECAST_HOUR": 20,
-                    "lat": 28.0,
-                    "lon": 150.4
+                    "lat": 27.3,
+                    "lon": 147.5
                 }
             ]
         }
