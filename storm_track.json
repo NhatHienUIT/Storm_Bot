@@ -2,49 +2,49 @@
     "status": "active",
     "storms": [
         {
-            "name": "Tropical Storm 31W (Cempaka)",
-            "run_time": "2026-11-07 18:00 UTC",
+            "name": "Typhoon 31W (Cempaka)",
+            "run_time": "2026-11-08 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 21.2,
-                    "lon": 139.9
+                    "lat": 21.4,
+                    "lon": 138.7
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 22.1,
-                    "lon": 137.3
+                    "lat": 22.2,
+                    "lon": 136.4
                 },
                 {
                     "FORECAST_HOUR": 24,
                     "lat": 23.1,
-                    "lon": 135.1
+                    "lon": 134.9
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 23.9,
-                    "lon": 134.6
+                    "lat": 23.8,
+                    "lon": 135.1
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 24.5,
-                    "lon": 135.9
+                    "lat": 24.3,
+                    "lon": 137.1
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 25.2,
-                    "lon": 138.5
+                    "lat": 24.9,
+                    "lon": 139.9
                 },
                 {
                     "FORECAST_HOUR": 72,
-                    "lat": 26.1,
-                    "lon": 142.1
+                    "lat": 25.6,
+                    "lon": 143.0
                 },
                 {
                     "FORECAST_HOUR": 96,
-                    "lat": 27.5,
-                    "lon": 148.8
+                    "lat": 26.8,
+                    "lon": 149.1
                 }
             ]
         }
