@@ -3,38 +3,38 @@
     "storms": [
         {
             "name": "Typhoon 31W (Cempaka)",
-            "run_time": "2026-11-09 18:00 UTC",
+            "run_time": "2026-11-10 00:00 UTC",
             "is_invest": false,
             "track": [
                 {
                     "FORECAST_HOUR": 0,
-                    "lat": 24.6,
-                    "lon": 136.6
+                    "lat": 25.0,
+                    "lon": 138.0
                 },
                 {
                     "FORECAST_HOUR": 12,
-                    "lat": 25.5,
-                    "lon": 139.7
+                    "lat": 26.1,
+                    "lon": 141.8
                 },
                 {
                     "FORECAST_HOUR": 24,
-                    "lat": 26.6,
-                    "lon": 143.7
+                    "lat": 27.5,
+                    "lon": 146.2
                 },
                 {
                     "FORECAST_HOUR": 36,
-                    "lat": 28.0,
-                    "lon": 148.5
+                    "lat": 28.8,
+                    "lon": 151.3
                 },
                 {
                     "FORECAST_HOUR": 48,
-                    "lat": 29.0,
-                    "lon": 153.4
+                    "lat": 29.9,
+                    "lon": 156.8
                 },
                 {
                     "FORECAST_HOUR": 60,
-                    "lat": 29.2,
-                    "lon": 157.5
+                    "lat": 31.0,
+                    "lon": 161.9
                 }
             ]
         }
