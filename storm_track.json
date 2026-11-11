@@ -1,27 +1,4 @@
 {
-    "status": "active",
-    "storms": [
-        {
-            "name": "Typhoon 31W (Cempaka)",
-            "run_time": "2026-11-11 00:00 UTC",
-            "is_invest": false,
-            "track": [
-                {
-                    "FORECAST_HOUR": 0,
-                    "lat": 27.7,
-                    "lon": 146.7
-                },
-                {
-                    "FORECAST_HOUR": 12,
-                    "lat": 29.5,
-                    "lon": 152.5
-                },
-                {
-                    "FORECAST_HOUR": 24,
-                    "lat": 32.1,
-                    "lon": 159.8
-                }
-            ]
-        }
-    ]
+    "status": "inactive",
+    "storms": []
 }
